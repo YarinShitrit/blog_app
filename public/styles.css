@@ -91,15 +91,20 @@ h3 {
     position: relative;
 }
 
-.delete {
-    position: absolute;
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     top: 0;
     right: 0;
-    border-radius: 50%;
+    position: absolute;
+}
+
+.buttons-container img {
     padding: 8px;
 }
 
-.delete:hover {
+.buttons-container img:hover {
     cursor: pointer;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
 }
